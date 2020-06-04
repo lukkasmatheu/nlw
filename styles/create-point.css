@@ -79,6 +79,10 @@ form select{
     appearance: none;
 }
 
+form input:hover{
+    background: #c0c0c0;
+}
+
 form label{
     font-size: 14px;
     margin-bottom: 8px;
@@ -124,11 +128,12 @@ form button:hover{
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
+    transition: 300ms;
 }
 
-/*.items-grid li:hover{
+.items-grid li:hover{
     background: #c0c0c0;
-}*/
+}
 .items-grid li span{
     flex: 1;
     display: flex;
