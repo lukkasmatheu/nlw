@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/modal.css">
     <link rel="stylesheet" href="/styles/responsive.css">
     <title>Document</title>
 </head>
@@ -27,5 +28,23 @@
         </div>
     </div>
     
+    <div id="modal" class="hide">
+        <div id="content">
+            <div class="header">
+                <h1>Pontos de coleta</h1>
+                <a href="#">Fechar</a>
+            </div>
+            <form action="">
+                <label for="search">Cidade ou Estado</label>
+                <div class="search field">
+                    <input type="text" name="search" placeholder="Digite o nome da cidade">
+                    <button>
+                        <img src="/icones/search.svg" alt="Buscar">
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/scripts/home.js"></script>
 </body>
 </html>
